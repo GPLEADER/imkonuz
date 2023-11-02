@@ -1,0 +1,232 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+  body {
+    background-color: #1a1f2f;
+  }
+
+  .first-section {
+    margin-top: 202px;
+    margin-left: 210px;
+  }
+
+  .imkon-logo {
+    padding-bottom: 8px;
+  }
+
+  /* Section apps */
+  .section-apps {
+    border-radius: 10px;
+    background: #fff;
+    width: 405px;
+    padding: 32px 40px;
+    height: 170px;
+  }
+
+  .apps-heading {
+    margin-top: 0.8px;
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+  }
+
+  .apps-text {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: -15px;
+    color: rgb(172, 171, 171);
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+  }
+
+  .apps {
+    display: flex;
+    margin-top: 36px;
+  }
+
+  .google-play {
+    background: #44464f;
+    width: 207px;
+    height: 64px;
+    border-radius: 10px;
+  }
+
+  .app-store {
+    background: #44464f;
+    width: 207px;
+    height: 64px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  .img_func {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img_func:hover {
+    scale: 1.1;
+  }
+
+  .img_func:active {
+    scale: .9;
+  }
+
+  /* /Section apps */
+
+
+  /* Section login */
+
+  .second-section {
+    text-align: right;
+    margin-top: -472px;
+    margin-right: 157px;
+  }
+
+  .wather-img {
+    border-radius: 10px;
+  }
+
+  .container {
+    width: 377px;
+    height: 425px;
+    background: #3a3c45;
+    margin-top: 16px;
+    margin-left: 965px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+    margin-right: 294px;
+    font-size: 25px;
+  }
+
+  .container_2 {
+    margin-top: 20px;
+    background: rgb(76 79 96);
+    width: 376px;
+    height: 41px;
+    border-radius: 10px;
+    margin-left: 965px;
+    padding: 10px;
+
+  }
+
+  .forms {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  label {
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 2px;
+  }
+
+  .new_password {
+    color: rgb(164, 164, 164);
+    font-weight: bold;
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+    font-size: 11px;
+    margin-top: -23px;
+    margin-left: 223px;
+    cursor: pointer;
+  }
+  .new_password:hover{
+    color: rgb(197, 197, 197);
+  }
+  input {
+    border-radius: 5px;
+    background-color: #212632;
+    border: none;
+    height: 15px;
+    margin-top: 5px;
+    color: #fff;
+    width: 303px;
+    padding: 15px;
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+  }
+
+  ::placeholder {
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+    color: rgb(164, 164, 164);
+    font-weight: bold;
+  }
+
+  .next_btn {
+    padding: 10px 28px;
+    border-radius: 5px;
+    background-color: rgb(0, 124, 213);
+    border: none;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 12px;
+    width: 332px;
+    font-family: sans-serif;
+    height: 35px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .next_btn:hover {
+    background-color: rgb(0, 107, 183);
+  }
+
+  .next_btn:active {
+    scale: .9;
+  }
+
+  hr{
+    width: 100px;
+
+  }
+  /* ro`yhatdan o`tish */
+  .log_in {
+    display: flex;
+  }
+
+  .login_text {
+    font-family: "Fira Sans", Arial, Tahoma, sans-serif;
+    color: rgb(137, 136, 136);
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 21px;
+  }
+
+  .login_btn {
+    padding: 10px 28px;
+    border-radius: 5px;
+    background-color: #323845;
+    border: none;
+    color: #fff;
+    margin-left: 46px;
+    font-size: 12px;
+    width: 158px;
+    font-family: sans-serif;
+    height: 31px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+
+  .login_btn:hover {
+    background: #545a62;
+    cursor: pointer;
+  }
+
+  .login_btn:active {
+    scale: .9;
+  }
+
+  /* /ro`yhatdan o`tish */
+
+  /* /Section login */

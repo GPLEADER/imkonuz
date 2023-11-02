@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/photo_2023-10-20_23-57-57.jpg" type="img/jpg">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Section apps -->
+  <div class="first-section">
+    <img class="imkon-logo" src="images/photo_2023-10-20_21-44-48.jpg" alt="Bu yerda logotip bor!" width="215px"
+      height="64px">
+    <section class="section-apps">
+      <h3 class="apps-heading">Mobil ilovasi ishga tushmoqda!</h3>
+      <p class="apps-text">Barcha yo‘nalishlar jam bo‘lgan ilovani hoziroq o‘rnating va <br> imkoniyatlaringizni
+        yanada kengaytiring.</p>
+      <div class="apps">
+        <div class="google-play">
+          <img class="img_func" onclick="myFunc()" src="images/download-google.svg" alt="Bu yerda rasm bor!">
+        </div>
+        <div class="app-store">
+          <img class="img_func" onclick="myFunck()" src="images/download-apple.svg" alt="Bu yerda rasm bor!">
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- /Section apps -->
+
+  <!-- Section login -->
+  <div class="second-section">
+    <img class="wather-img" src="images/photo_2023-10-20_22-58-17.jpg" alt="" width="399px" height="88px">
+    <div class="container">
+      <h2>Kirish</h2>
+      <div class="forms">
+        <label for="email">Login</label><br>
+        <input type="email" name="email" id="email" placeholder="Pochtangizni kiriting" required>
+        <br><br>
+        <label for="password">Parol</label><br>
+        <p class="new_password">Parolni unutdingizmi?</p>
+        <input type="password" name="password" id="password" placeholder="Parolingizni kiriting" required><br><br>
+      </div>
+      <button class="next_btn">Tizimga kirish</button>
+      <div class="horiz_rule"></div>
+      <hr>
+      <p class="or">Yoki</p>
+      <hr>
+    </div>
+    <div class="container_2">
+      <div class="log_in">
+        <p class="login_text">Tarmoqda yangimisiz?</p>
+        <button class="login_btn">Ro`yhatdan o`tish</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- /Section login -->
+
+  <script>
+    function myFunc() {
+      alert("\"Play Market\"dan yuklab oling!")
+      console.log('bosildi');
+    }
+
+    function myFunck() {
+      alert("\"App Store\"dan yuklab oling!")
+      console.log('bosildi');
+    }
+  </script>
+</body>
+
+</html>
